@@ -1,0 +1,64 @@
+/*   File: Sean's CSS Sheet
+ * Author: Sean MAthews
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.ListStoreHours{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 50px;
+    text-align: center;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.page-header{
+      margin: 0;
+      border-bottom: none;
+      padding-bottom: 0;    
+}
+
+  
+.CurrentMenuBackGround{
+float: left;
+background: lightskyblue;
+text-align: center;
+width: 515px;
+height: 1000px;
+}
+
+.panel-group{
+    width: 100%;
+}
+
+.Imagecontainer{
+    width: 200px;
+    height: 120px;
+}
+
+.Imagecontainer img{
+    width: 100%;
+    height: auto;
+}
+
+.EditMenuBackGround{
+    /* float: right; */
+    background: rgb(121, 196, 125);
+    text-align: center;
+    width: 515px;
+    height: 1000px;
+
+}
