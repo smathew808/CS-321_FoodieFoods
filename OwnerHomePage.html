@@ -5,7 +5,7 @@
    <html>
        <head>
            <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-           <title>CreateRestaraunt</title>
+           <title>OwnerHomePage</title>
            <link href="SeanStyleSheet.css" rel="stylesheet">
        </head>
    
@@ -31,12 +31,14 @@
 
                       <div class="bottomnav">
                             <a class="active" href="#home">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#contact">Contact</a>
+                            <a href="#about">Edit Menu</a>
+                            <a href="#contact">Store Info</a>
+                            <a href="#contact">Orders</a>
+                            <a href="#contact">Delivery</a>
                             <div class="search-container">
                               <form action="/action_page.php">
                                 <input type="text" placeholder="Search.." class="SearchBox" name="search">
-                                <button type="submit"><i class="fa fa-search"></i></button>
+                                <button type="submit">Submit</button>
                               </form>
                             </div>
                           </div>
@@ -44,8 +46,85 @@
                <main class="content">
                    
                   
-                         
-   
+                    <form action="/action_page.php">
+                        <div class="Calender">
+
+                            <center><h2 class="StatisticsTitle">Store Statistics</h2></center><br>
+                            <center><input type="date" name="bday" min="1900-01-01" class="CalenderInput"><br><br></center>
+                        </div>
+                        
+                        
+                        <!-- <input type="submit">  -->
+                        </form>
+
+                        <div class="StatsTable">
+
+                        
+                        <center><table>
+                                <tr class="StatsTableRow">
+                                  <th class="StatsTableHeader">Stat Type</th>
+                                  <th class="StatsTableHeader">Sunday</th>
+                                  <th class="StatsTableHeader">Monday</th>
+                                  <th class="StatsTableHeader">Tuesday</th>
+                                  <th class="StatsTableHeader">Wednesday</th>
+                                  <th class="StatsTableHeader">Thursday</th>
+                                  <th class="StatsTableHeader">Friday</th>
+                                  <th class="StatsTableHeader">Saturday</th>
+                                </tr>
+                                <tr class="StatsTableRow">
+                                  <td class="StatsTableType">Sales</td>
+                                  <td class="StatsTableData">$5678.00</td>
+                                  <td class="StatsTableData">$5678.00</td>
+                                  <td class="StatsTableData">$5678.00</td>
+                                  <td class="StatsTableData">$5678.00</td>
+                                  <td class="StatsTableData">$5678.00</td>
+                                  <td class="StatsTableData">$5678.00</td>
+                                  <td class="StatsTableData">$5678.00</td>
+                                </tr>
+                                <tr class="StatsTableRow">
+                                  <td class="StatsTableType">Cost(Store Product and Payroll)</td>
+                                  <td class="StatsTableData">$524.00</td>
+                                  <td class="StatsTableData">$524.00</td>
+                                  <td class="StatsTableData">$524.00</td>
+                                  <td class="StatsTableData">$524.00</td>
+                                  <td class="StatsTableData">$524.00</td>
+                                  <td class="StatsTableData">$524.00</td>
+                                  <td class="StatsTableData">$524.00</td>
+
+                                </tr>
+                                <tr class="StatsTableRow">
+                                   <td class="StatsTableType">Coupon Usage</td>
+                                   <td class="StatsTableData">$456.00</td>
+                                   <td class="StatsTableData">$456.00</td>
+                                   <td class="StatsTableData">$456.00</td>
+                                   <td class="StatsTableData">$456.00</td>
+                                   <td class="StatsTableData">$456.00</td>
+                                   <td class="StatsTableData">$456.00</td>
+                                   <td class="StatsTableData">$456.00</td>
+                                </tr>
+                                <tr class="StatsTableRow">
+                                   <td class="StatsTableType">Store Hours</td>
+                                   <td class="StatsTableData">11am - 5pm</td>
+                                   <td class="StatsTableData">9am - 9pm</td>
+                                   <td class="StatsTableData">9am - 9pm</td>
+                                   <td class="StatsTableData">9am - 9pm</td>
+                                   <td class="StatsTableData">9am - 9pm</td>
+                                   <td class="StatsTableData">9am - 11pm</td>
+                                   <td class="StatsTableData">9am - 11pm</td>
+                                </tr>
+                                <tr class="StatsTableRow">
+                                        <td class="StatsTableType">Most Ordered Menu Item</td>
+                                        <td class="StatsTableData">Menu Item 2</td>
+                                        <td class="StatsTableData">Menu Item 2</td>
+                                        <td class="StatsTableData">Menu Item 2</td>
+                                        <td class="StatsTableData">Menu Item 2</td>
+                                        <td class="StatsTableData">Menu Item 2</td>
+                                        <td class="StatsTableData">Menu Item 2</td>
+                                        <td class="StatsTableData">Menu Item 2</td>
+                                </tr>
+
+                              </table></center>
+                     </div>
    
                </main>
    
