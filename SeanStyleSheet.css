@@ -366,6 +366,7 @@ body {font-family: Verdana, sans-serif;}
     height: 100vh; 
     background: rgb(214, 160, 160);
     padding: 20px;
+    
 }
 
 /* Style the list inside the menu */
@@ -447,7 +448,7 @@ section:after {
     float: left;
     width: 100%;
     padding: 10px;
-    height: 350px; 
+    height: 450px; 
 }
 
 /* Clear floats after the columns */
@@ -539,3 +540,84 @@ height: 40px;
 .storeInfoBtn:hover{
     background-color: #45a049;
 }
+/********/
+/*Orders*/
+/********/
+
+/********/
+/*Orders*/
+/********/
+
+/********/
+/*Orders*/
+/********/
+
+.OrdersBackGround{
+    width: 100%;
+    background-color: #1b5014;
+    height: 100vh;
+}
+
+.OrdersBackGroundLeft{
+  float: left;
+    width: 42%;
+    height: 100vh; 
+    background: rgb(214, 160, 160);
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.OrdersBackGroundRight{
+    float: right;
+    padding: 20px;
+    width: 42%;
+    background-color: #f1f1f1;
+    height: 100vh; 
+    margin-right: 100px;
+}
+
+.CurrOrderNumber{
+    color: rgb(79, 166, 196);
+    font: monospace;
+    font-size: 22px;
+
+}
+
+.CurrOrderMenuItem{
+    text-transform: uppercase;
+    color: rgb(31, 29, 19);
+}
+
+.CurrOrderMenuItemInformation{
+    letter-spacing: 1px;
+    color: rgb(34, 55, 82);
+}
+/**********/
+/*Delivery*/
+/**********/
+
+/**********/
+/*Delivery*/
+/**********/
+
+/**********/
+/*Delivery*/
+/**********/
+
+.DeliveryBackGroundLeft{
+    float: left;
+      width: 42%;
+      height: 100vh; 
+      background: rgb(214, 160, 160);
+      padding: 20px;
+      margin-left: 100px;
+  }
+  
+.DeliveryBackGroundRight{
+      float: right;
+      padding: 20px;
+      width: 42%;
+      background-color: #f1f1f1;
+      height: 100vh; 
+      margin-right: 100px;
+  }
