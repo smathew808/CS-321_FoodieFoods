@@ -5,7 +5,7 @@
    <html>
        <head>
            <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-           <title>EditMenu</title>
+           <title>StoreInfoAddNewProduct</title>
            <link href="SeanStyleSheet.css" rel="stylesheet">
        </head>
    
@@ -31,8 +31,8 @@
 
                       <div class="bottomnav">
                             <a href="#home">Home</a>
-                            <a class="active" href="#about">Edit Menu</a>
-                            <a href="#contact">Store Info</a>
+                            <a href="#about">Edit Menu</a>
+                            <a class="active" href="#contact">Store Info</a>
                             <a href="#contact">Orders</a>
                             <a href="#contact">Delivery</a>
                             <div class="search-container">
@@ -42,61 +42,64 @@
                               </form>
                             </div>
                           </div>
-           
-               <main class="content">
-                   
+
+                         
+
+               <main class="StoreInfoBackGround">
+                    <a href="StoreInfo.html"><button class="storeInfoBtn">Store Inventory</button></a>
+                          <a href="EditMenuItem2Clicked.html"><button class="storeInfoBtn">Employee Information</button></a>
                     
                     <section>
                       <nav class="CurrMenuNav">
-                        <center><h1 class="CurrMenuTitle">Current Menu</h1></center>
+                        <center><h1 class="CurrMenuTitle">Store Inventory</h1></center>
 
                               
-                      <a href="EditMenuItem1Clicked.html"><button class="accordionEditMenu">Menu Item1</button></a>
+                      <a href="StoreInfoProduct1Clicked.html"><button class="accordionEditMenu">Product1</button></a>
                         <div class="panel">
                           
                         </div>
                         
-                        <a href="EditMenuItem2Clicked.html"><button class="accordionEditMenu">Menu Item2</button></a>
+                        <a href="StoreInfoProduct2Clicked.html"><button class="accordionEditMenu">Product2</button></a>
                         <div class="panel">
                          
                         </div>
                        
-                     
+                        <a href="StoreInfoProduct3Clicked.html"><button class="accordionEditMenu">Product3</button></a>
+                        <div class="panel">
+                         
+                        </div>
                               
                            
 
                       </nav>
                       
                       <article>
-                          <center><h1 class="CurrMenuTitle">Edit Menu</h1></center>
+                          <center><h1 class="CurrMenuTitle">Add New Product</h1></center>
 
                           <div class="EditMenuFormcontainer">
                             <form action="/action_page.php">
 
-                              <label for="fname">New Menu Item(Optional)</label>
+                              <label for="fname">New Product Name</label>
                               <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="">
 
-                              <label for="country">Menu Item Selection</label>
+                              <label for="country">Product type</label>
                               <select id="country" name="country" class="EditMenuFormSelect">
-                                <option value="australia">Menu Item1</option>
-                                <option value="canada">Menu Item2</option>
+                                <option value="australia">Food</option>
+                                <option value="canada">Drink</option>
+                                <option value="canada">Condiment</option>
+                                <option value="canada">Cleaning Supplies</option>
+                                <option value="canada">Office Supplies</option>
+                                <option value="canada">Dry Storage</option>
+                                <option value="canada">Cold Storage</option>
                               </select>
 
-                              <label for="fname">Item Price</label>
+                              <label for="fname">Product Cost</label>
                               <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="$5.99...">
-
-                              <label for="fname">Food Type</label>
-                              <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="Burger, Wrap, Salad, Fried Rice, Taco,...">
-                          
-                              <label for="subject">Nutritional Facts</label>
-                              <textarea id="subject" name="subject" placeholder="Write something.." class="EditMenuFormTextArea" style="height:200px"></textarea>
-                          
-                              
-                          
+                               
                               <label for="subject">Special Notes</label>
                               <textarea id="subject" name="subject" placeholder="Write something.." class="EditMenuFormTextArea" style="height:200px"></textarea>
                           
-                              <a href="AddMenuItem.html"  class="EditMenuSubmitButton">Submit</a>
+                              <a href="StoreInfoProduct3Clicked.html"  class="EditMenuSubmitButton">Submit</a>
                             </form>
                           </div>
                       </article>

@@ -66,8 +66,7 @@ body {
     padding: 16px;
     background-color: white;
 }
-/* input[type=text], input[type=password] */
-/* Full-width input fields */
+
 .UserInputOwnerSignUp, .OpenHours, .CloseHours, .UserInputLogin {
     width: 100%;
     padding: 15px;
@@ -168,6 +167,11 @@ a {
     text-decoration: none;
     font-size: 17px;
 }
+
+/*********************/
+/* BOTTOM NAV STYLING*/
+/*********************/
+
 /*********************/
 /* BOTTOM NAV STYLING*/
 /*********************/
@@ -220,9 +224,16 @@ a {
     cursor: pointer;
   }
   
-  .bottomnav .search-container button:hover {
+  .bottomnav, .search-container, .dropdown-contentNavBar, button:hover,  {
     background: #ccc;
   }
+
+
+
+  /***********************************/
+  /*CALENDER FOR OWNER HOME PAGE PAGE*/
+  /***********************************/
+  
 
   /***********************************/
   /*CALENDER FOR OWNER HOME PAGE PAGE*/
@@ -336,16 +347,23 @@ body {font-family: Verdana, sans-serif;}
     background-color: #f2f2f2
 }
 
-
 /*************/
 /* EDIT MENU */
 /*************/
+/*************/ 
+/* EDIT MENU */
+/*************/
+/*************/
+/* EDIT MENU */
+/*************/
+
+
 
 /* Create two columns/boxes that floats next to each other */
 .CurrMenuNav {
     float: left;
     width: 40%;
-    height: 100vh; /* only for demonstration, should be removed */
+    height: 100vh; 
     background: rgb(214, 160, 160);
     padding: 20px;
 }
@@ -361,7 +379,7 @@ article {
     padding: 20px;
     width: 60%;
     background-color: #f1f1f1;
-    height: 100vh; /* only for demonstration, should be removed */
+    height: 100vh; 
 }
 
 /* Clear floats after the columns */
@@ -397,7 +415,7 @@ section:after {
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Dropdown Content */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -429,7 +447,7 @@ section:after {
     float: left;
     width: 100%;
     padding: 10px;
-    height: 350px; /* Should be removed. Only for demonstration */
+    height: 350px; 
 }
 
 /* Clear floats after the columns */
@@ -496,5 +514,28 @@ section:after {
     overflow: hidden;
 }
 
+/*******************/
+/*STORE INFORMATION*/
+/*******************/
+/*******************/
+/*STORE INFORMATION*/
+/*******************/
+/*******************/
+/*STORE INFORMATION*/
+/*******************/
 
+.StoreInfoBackGround{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100vh;
+}
 
+.storeInfoBtn{
+padding: 10px;
+width: 200px;
+height: 40px;
+}
+
+.storeInfoBtn:hover{
+    background-color: #45a049;
+}
