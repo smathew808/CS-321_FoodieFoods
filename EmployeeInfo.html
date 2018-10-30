@@ -47,19 +47,19 @@
 
                <main class="StoreInfoBackGround">
                     <a href="StoreInfo.html"><button class="storeInfoBtn">Store Inventory</button></a>
-                    <a href="EmployeeInfo.html"><button class="storeInfoBtn">Employee Information</button></a>
+                          <a href="EmployeeInfo.html"><button class="storeInfoBtn">Employee Information</button></a>
                     
                     <section>
                       <nav class="CurrMenuNav">
-                        <center><h1 class="CurrMenuTitle">Store Inventory</h1></center>
+                        <center><h1 class="CurrMenuTitle">Employee Roster</h1></center>
 
                               
-                      <a href="StoreInfoProduct1Clicked.html"><button class="accordionEditMenu">Product1</button></a>
+                      <a href="EmployeeInfoEmployee1Clicked.html"><button class="accordionEditMenu">Employee 1</button></a>
                         <div class="panel">
                           
                         </div>
                         
-                        <a href="StoreInfoProduct2Clicked.html"><button class="accordionEditMenu">Product2</button></a>
+                        <a href="EmployeeInfoEmployee2Clicked.html"><button class="accordionEditMenu">Employee 2</button></a>
                         <div class="panel">
                          
                         </div>
@@ -71,32 +71,34 @@
                       </nav>
                       
                       <article>
-                          <center><h1 class="CurrMenuTitle">Add New Product</h1></center>
+                          <center><h1 class="CurrMenuTitle">Add New Employee</h1></center>
 
                           <div class="EditMenuFormcontainer">
                             <form action="/action_page.php">
 
-                              <label for="fname">New Product Name</label>
+                              <label for="fname">New Employee Name</label>
                               <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="">
 
-                              <label for="country">Product type</label>
+                              <label for="country">Employee Role</label>
                               <select id="country" name="country" class="EditMenuFormSelect">
-                                <option value="australia">Food</option>
-                                <option value="canada">Drink</option>
-                                <option value="canada">Condiment</option>
-                                <option value="canada">Cleaning Supplies</option>
-                                <option value="canada">Office Supplies</option>
-                                <option value="canada">Dry Storage</option>
-                                <option value="canada">Cold Storage</option>
+                                <option value="australia">Server</option>
+                                <option value="canada">Dish Washer</option>
+                                <option value="canada">Manager</option>
+                                <option value="canada">Cook</option>
+                                <option value="canada">Delivery Runner</option>
+                                <option value="canada">Bar Tender</option>
                               </select>
 
-                              <label for="fname">Product Cost</label>
-                              <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="$5.99...">
+                              <label for="fname">Pay Grade</label>
+                              <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="$10.00 per hour...">
+
+                              <label for="fname">Social Security Number</label>
+                              <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="111-1111...">
                                
                               <label for="subject">Special Notes</label>
                               <textarea id="subject" name="subject" placeholder="Write something.." class="EditMenuFormTextArea" style="height:200px"></textarea>
                           
-                              <a href="StoreInfoAddNewProduct.html"  class="EditMenuSubmitButton">Submit</a>
+                              <a href="EmployeeInfoAddNewEmployee.html"  class="EditMenuSubmitButton">Submit</a>
                             </form>
                           </div>
                       </article>

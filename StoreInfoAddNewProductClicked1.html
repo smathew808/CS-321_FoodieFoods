@@ -5,7 +5,7 @@
    <html>
        <head>
            <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-           <title>EditMenuItem1Clicked</title>
+           <title>StoreInfoAddNewProductClicked1</title>
            <link href="SeanStyleSheet.css" rel="stylesheet">
        </head>
    
@@ -31,8 +31,8 @@
 
                       <div class="bottomnav">
                             <a href="OwnerHomePage.html">Home</a>
-                            <a class="active" href="EditMenu.html">Edit Menu</a>
-                            <a href="StoreInfo.html">Store Info</a>
+                            <a href="EditMenu.html">Edit Menu</a>
+                            <a class="active" href="StoreInfo.html">Store Info</a>
                             <a href="Orders.html">Orders</a>
                             <a href="Delivery.html">Delivery</a>
                             <div class="search-container">
@@ -44,45 +44,44 @@
                           </div>
            
                <main class="content">
-                   
+                <a href="StoreInfoAddNewProduct.html"><button class="storeInfoBtn">Store Inventory</button></a>
+                <a href="EmployeeInfo.html"><button class="storeInfoBtn">Employee Information</button></a>
                   <section>
                       <nav class="CurrMenuNav">
-                        <center><h1 class="CurrMenuTitle">Current Menu</h1></center>
+                            <center><h1 class="CurrMenuTitle">Store Inventory</h1></center>
                         
 
                               <div class="row">
                                 <div class="column" style="background-color:rgb(163, 163, 163);">
-                                  <h4 class="CurrMenuListTopic">Menu Item1</h4><br>
+                                  <h4 class="CurrMenuListTopic">Product1</h4><br>
                              <center><ul>
 
-                                <h4 class="CurrMenuListTopic">Price</h4><br>
-                                <center><ul>
-                                    <li class="CurrMenuListItem">$11.99</li>
-                                </ul></center><br>
+                                
 
-                                <li><h3 class="CurrMenuListTopic">Nutritional Facts</h3></li>
-                                <li class="CurrMenuListItem">Calories: 570</li>
-                                <li class="CurrMenuListItem">Total Fats: 35g</li>
-                                <li class="CurrMenuListItem">Cholestrol: 355mg</li>
-                                <li class="CurrMenuListItem">Sodium: 880mg</li>
-                                <li class="CurrMenuListItem">Total Carbohydrate: 33g</li>
-                                <li class="CurrMenuListItem">Dietary fiber: 1g</li>
-                                <li class="CurrMenuListItem">Sugar: 6g</li>
-                                <li class="CurrMenuListItem">Protein: 28g</li>
+                                <li><h3 class="CurrMenuListTopic">Product Information</h3></li>
+                                <li class="CurrMenuListItem">Quantity: 3 boxes</li>
+                                <li class="CurrMenuListItem">Fragile?: No</li>
+                                <li class="CurrMenuListItem">Cost: $25</li>
                               </ul><br>
-                              <h3 class="CurrMenuListTopic">Food Type</h3>
-                                  <center><p class="CurrMenuListItem">Sandwich, Egg</p></center>
+                              <h3 class="CurrMenuListTopic">Product Description</h3>
+                                  <center><p class="CurrMenuListItem">A box contains 20 pattys, and should yield
+                                    $100 worth of profit. More information can go here if owner finds it necessary
+                                  </p></center>
 
                               </center><br>
                                 </div>
                                 <div class="column" style="background-color:rgb(233, 122, 122);">
                                     <h1 class="CurrMenuListTopic" style="color:lightseagreen">Special Notes</h1>
+                                    <center><p class="CurrMenuListItem">The store runs out of this Product a lot more often
+                                        in the Summer. Make sure to order atleast 25% more than usual. 
+                                          </p></center>
                                 </div>
 
                                 
                      
                         
-                            <a href="EditMenuItem2Clicked.html"><button class="accordionEditMenu">Menu Item2</button></a>
+                            <a href="StoreInfoAddNewProductClicked2.html"><button class="accordionEditMenu">Product2</button></a>
+                            <a href="StoreInfoProduct3Clicked.html"><button class="accordionEditMenu">Product3</button></a>
                         <div class="panel">
                          
                         </div>
@@ -128,39 +127,36 @@
                       </nav>
                       
                       <article>
-                          <center><h1 class="CurrMenuTitle">Edit Menu</h1></center>
-
-                          <div class="EditMenuFormcontainer">
-                            <form action="/action_page.php">
-
-                              <label for="fname">New Menu Item(Optional)</label>
-                              <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="">
-
-                              <label for="country">Menu Item Selection</label>
-                              <select id="country" name="country" class="EditMenuFormSelect">
-                                <option value="australia">Menu Item1</option>
-                                <option value="canada">Menu Item2</option>
-                              </select>
-
-                              <label for="fname">Item Price</label>
-                              <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="$5.99...">
-
-                              <label for="fname">Food Type</label>
-                              <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="Burger, Wrap, Salad, Fried Rice, Taco,...">
-                          
-                              <label for="subject">Nutritional Facts</label>
-                              <textarea id="subject" name="subject" placeholder="Write something.." class="EditMenuFormTextArea" style="height:200px"></textarea>
-                          
-                              
-                          
-                              <label for="subject">Special Notes</label>
-                              <textarea id="subject" name="subject" placeholder="Write something.." class="EditMenuFormTextArea" style="height:200px"></textarea>
-                          
-                              <a href="EditMenuItem3Added.html"  class="EditMenuSubmitButton">Submit</a>
-                            </form>
-                          </div>
-                      </article>
-                    </section>
+                            <center><h1 class="CurrMenuTitle">Add New Product</h1></center>
+  
+                            <div class="EditMenuFormcontainer">
+                              <form action="/action_page.php">
+  
+                                <label for="fname">New Product Name</label>
+                                <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="">
+  
+                                <label for="country">Product type</label>
+                                <select id="country" name="country" class="EditMenuFormSelect">
+                                  <option value="australia">Food</option>
+                                  <option value="canada">Drink</option>
+                                  <option value="canada">Condiment</option>
+                                  <option value="canada">Cleaning Supplies</option>
+                                  <option value="canada">Office Supplies</option>
+                                  <option value="canada">Dry Storage</option>
+                                  <option value="canada">Cold Storage</option>
+                                </select>
+  
+                                <label for="fname">Product Cost</label>
+                                <input type="text" id="fname" name="firstname" class="EditMenuFormInput" placeholder="$5.99...">
+                                 
+                                <label for="subject">Special Notes</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." class="EditMenuFormTextArea" style="height:200px"></textarea>
+                            
+                                <a href="StoreInfoAddNewProduct.html"  class="EditMenuSubmitButton">Submit</a>
+                              </form>
+                            </div>
+                        </article>
+                      </section>
                     
                     
                     
