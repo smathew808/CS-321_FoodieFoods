@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width-device-width, inital-scale=1.0">
+    <title>SearchPage</title>
+    <link href="BenStyleSheet.css" rel="stylesheet">
+</head>
+
+<body>
+         <!-- Login Modal Window -->
+        <a href="#loginWindow" class="loginButton">Login</a>
+        <div id="loginWindow">
+            <div>
+                <a href="#close">
+                    <img id="closeImg" src="black-x-png-3.png" alt="Close" width="32px" height="32">
+                </a>
+                <div class="signintext">Sign into your account</div>
+                <br>
+                <form action="/action_page.php">
+                    <input class="signInEmailTextbox" type="text" placeholder="Email Address">
+                    <br>
+                    <input class="signInPasswordTextbox" type="password" placeholder="Password">
+                    <br>
+                    <input type="checkbox" class="signedIn" id="signedIn">
+                    <label class="signedInLabel" for="signedIn">Keep me signed in</label>
+                    <br>
+                    <br>
+                    <br> <a href="ForgotPassword.html" class="forgetPasswordbutton">Forgot Password?</a>
+                    <a href="UserLoginDummy.html" class="button">Login</a>
+                    <br>
+                    <br>
+                    <div class="signintext2">Or</div>
+                    <br> <a href="UserLoginDummy.html" class="button">Login with Google</a>
+                    <a href="UserLoginDummy.html" class="button">Login with Facebook</a>
+                    <a href="UserLoginDummy.html" class="button">Login with Bing</a>
+                </form>
+            </div>
+
+            <!-- Sign Up Modal Window -->
+        </div> <a href="#signUpWindow" class="signUpButton">Sign Up</a>
+        <div id="signUpWindow">
+            <div>
+                <a href="#close">
+                    <img id="closeImg" src="black-x-png-3.png" alt="Close" width="32px" height="32">
+                </a>
+                <div class="signintext">Create your account</div>
+                <br>
+                <input class="textbox" type="text" placeholder="First Name">
+                <input class="textbox" type="text" placeholder="Last Name">
+                <input class="textbox" type="text" placeholder="Username">
+                <input class="textbox" type="text" placeholder="Email Address">
+                <input class="password" type="text" placeholder="Password">
+                <input class="confirm password" type="text" placeholder="Confirm Password">
+                <br> <a href="UserLoginDummy.html" class="submitbutton">Login</a>
+                <br>
+                <br>
+                <div class="signintext2">Optional: Billing Information</div>
+                <br>
+                <input class="textbox" type="text" placeholder="Credit Card Number">
+                <input class="textbox" type="text" placeholder="Card Owner">
+                <input class="textbox" type="text" placeholder="Experation Date">
+                <input class="textbox" type="text" placeholder="CVC">
+                </p>
+            </div>
+        </div>
+
+           <!-- Business Modal Window -->
+    <a href="#BusinessWindow" class="businessButton">Business Login</a>
+    <div id="BusinessWindow">
+        <div>
+            <a href="#close">
+                <img id="closeImg" src="black-x-png-3.png" alt="Close" width="32px" height="32">
+            </a>
+            <div class="signintext">Sign into your Business Account</div>
+            <br>
+            <form action="/action_page.php">
+                <input class="businessEmailTextbox" type="text" placeholder="Email Address">
+                <br>
+                <input class="businessPasswordTextbox" type="password" placeholder="Password">
+                <br>
+                <br>
+                <br>
+                <br> <a href="CreateRestaraunt.html" class="forgetRestaurantbutton">Don't Have a restaurant Account?</a>
+                <a href="OwnerHomePage.html" class="button">Login</a>
+            </form>
+        </div>
+        </div>
+        
+    <img class="headerPic" src="drink-2910442.jpg" alt="HeaderPic">
+    <h1 class="appName">Food Finder</h1>
+    <body>
+        <input class="searchTextbox1" type="text" placeholder="Find">
+    <input class="searchTextbox2" type="text" placeholder="Location">
+    <a href="ResultsDummy.html" class="searchButton">Search</a><br><br><br>
+    <a href="ResultsDummy.html" class="searchButton">Back</a><br><br><br>
+    <div class="clearfix"></div>
+    <div style="padding:6px;"><br>
+    </div>
+  
+    <div style="padding:0px;" class="restaurantpic">
+        <img class = "restaurantimg" src="restaurant-438385_1920.jpg" alt="Northern Lights" width="600" height="400">
+</div><br><br><br>
+<h2 class="Categories">Mario's Corner Grill</h2><br><br><br>
+
+<section class="ac-container">
+<div>
+<input id="ac-1" name="accordion-1" type="radio" checked="">
+<label for="ac-1">Sides</label>
+<article class="ac-medium">
+        <div class="menuline"><div class = "menuItem">Vegetable Plate 3.00</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Fried Apples 2.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">French Fries 2.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Fried Okra 0.00</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>
+        <div class="menuline"><div class = "menuItem">Side Salad 2.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Cole Slaw 2.00</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Sweet Carrots 2.00</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Cheese Sticks3.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>
+</article>
+</div>
+<div>
+<input id="ac-2" name="accordion-1" type="radio">
+<label for="ac-2">Barbeque</label>
+<article class="ac-medium">
+   <div class="menuline"><div class = "menuItem">St. Louis Ribs 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Steak 8.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Steak Kebab 5.00</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Pulled Pork Sandwich 7.25</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>
+   <div class="menuline"><div class = "menuItem">Hotdogs 4.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Brisket 7.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Chicken Isaw 5.00</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Pork Shoulder 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>
+</article>
+</div>
+<div>
+<input id="ac-3" name="accordion-1" type="radio">
+<label for="ac-3">Pasta Dishes</label>
+<article class="ac-medium">
+        <div class="menuline"><div class = "menuItem">Fettuccine Alfredo 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Gnocchi al castelmagno 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Malfatti di Carpenedolo 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Fried Ravioli 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>
+        <div class="menuline"><div class = "menuItem">Tortellini 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Tetrazzini 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Spaghetti alla carrettiera 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Scarpinocc 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>          
+</article>
+</div>
+<div>
+<input id="ac-4" name="accordion-1" type="radio">
+<label for="ac-4">Kids Menu</label>
+<article class="ac-medium">
+        <div class="menuline"><div class = "menuItem">CheeBurger 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Lil bub sliders 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Grilled cheese sandwich 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem"> on stick 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>
+        <div class="menuline"><div class = "menuItem">Ice Cream 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem"> RPBJ 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem"> Crackers 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"><div class = "menuItem">Swedish meatball 6.50</div><input style = "display:inline" type="number" class= "amount" placeholder="0" step="0" min="0" max="20"></div>
+</article>
+</div>
+</section>
+<a href="BillingNotLoggedIn.html" ><button class="checkoutbtn">Proceed to Checkout</button></a><br><br><br>
+
+</body>
+
+</html>

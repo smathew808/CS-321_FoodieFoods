@@ -1,0 +1,205 @@
+<!-- File:  Deals.html
+   Author: Claire Fuesting -->
+   <!DOCTYPE html>
+   <html>
+       <head>
+            <link href="BenStyleSheet.css" rel="stylesheet">
+           <title>Senior</title>
+           <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+            
+            .active {
+                background-color: #bbbbbb;
+            }
+
+             table, th, td {
+  border: 1px solid #bbbbbb;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;   
+  color: #bbbbbb; 
+  color: white;
+}
+
+.block {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border: none;
+  background-color: #bbbbbb;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+p{
+    color: white;
+}
+
+.thing{color:white;}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdaysOwnerHomePage .ownerHomePageLI, .daysOwnerHomePage .ownerHomePageLI, .OrdersBackGroundLeft, .OrdersBackGroundRight {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdaysOwnerHomePage .ownerHomePageLI, .daysOwnerHomePage .ownerHomePageLI {width: 12.5%;}
+    .daysOwnerHomePage .ownerHomePageLI .active, .OrdersBackGroundLeft, .OrdersBackGroundRight {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdaysOwnerHomePage .ownerHomePageLI, .daysOwnerHomePage, .ownerHomePageLI, .OrdersBackGroundLeft, .OrdersBackGroundRight {width: 12.2%;}
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+            </style>
+       </head>
+  
+       <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Favorites">Favorites</a></li>
+            <li><a href="#Deals">Deals</a></li>
+            <li><a href="#EditAccount">Profile</a></li>
+            <li style="float: center">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </li>
+            <li style="float:right"><a class="active" href="#about">Logout</a></li>
+          </ul>
+        </nav>
+        <body>
+                <p >  Most Recent </p>
+            <p style="font-size:50px;"> <u>Most Recent Orders and Resturants:</u></p>
+              <p >   </p>
+              <table style="width:20%" align ="center">
+                  <tr>
+                    <th align ="center">Mario's</th>
+                    <th align ="center">Mario's</th>
+                    <th align ="center">Mario's</th>
+                    <th align ="center">Mario's</th>
+                    <th align ="center">Mario's</th>
+                    <th align ="center">Mario's</th>
+                  </tr>
+                  <tr>
+                    <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Order Again</a></th>
+                    <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Order Again</a></th>
+                    <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Order Again</a></th>
+                    <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Order Again</a></th>
+                    <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Order Again</a></th>
+                    <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Order Again</a></th>
+                  </tr>
+                </table>
+              
+                <p >  </p>
+                <p >  </p>
+                <p style="font-size:50px;"> <u>All Types of Food:</u></p>
+
+                <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Italian</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Greek</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Chinese</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Japanese</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Fast Food</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Sandwiches</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Pizza</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Mexican</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">BBQ</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Coffee</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Burgers</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+                  <table style="width:20%" align ="center">
+                    <tr>
+                      <th><a class="block" href="SignedInResults.html" class="button">Steak</a></th>
+                    </tr>
+                  </table>
+                  <p> </p>
+        </body>
+   </html>

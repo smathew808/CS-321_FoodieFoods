@@ -1,0 +1,124 @@
+<!-- File:  Deals.html
+   Author: Claire Fuesting -->
+   <!DOCTYPE html>
+   <html>
+       <head>
+            <link href="BenStyleSheet.css" rel="stylesheet">
+           <title>Write Review</title>
+           <style>
+              ul {
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                  overflow: hidden;
+                  background-color: #333;
+                  color: white;
+              }
+              
+              li {
+                  float: left;
+              }
+              
+              li a {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+              }
+              
+              li a:hover:not(.active) {
+                  background-color: #111;
+              }
+              
+              .active {
+                  background-color: #bbbbbb;
+              }
+              .rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 2em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+color:#bbbbbb;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #bbbbbb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #bbbbbb;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+p{color: white}
+
+              </style>
+       </head>
+  
+       <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Favorites">Favorites</a></li>
+            <li><a href="#Deals">Deals</a></li>
+            <li><a href="#EditAccount">Profile</a></li>
+            <li style="float: center">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </li>
+            <li style="float:right"><a class="active" href="#about">Logout</a></li>
+          </ul>
+        </nav>
+        <body>
+            <p> </p>
+            <p style="font-size:50px;"> <u>Wang Gang</u></p>
+            <p style="font-size:30px;"> <u>Select Number of Stars You Wish To Give The Restaurant:</u></p>
+            <div class="rating" align="Left">
+                <span>✩</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                </div>
+                <p> </p>
+                <p> </p>
+<h3>Write Review Here</h3>
+<textarea id="review" name="review" placeholder="Please write review below and submit to be reviewed by the restaurant" style="height:200px"></textarea>
+
+<input type="submit" value="Submit">
+</form>
+</div>
+        </body>
+   </html>

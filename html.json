@@ -1,0 +1,68 @@
+{
+	"html template": {
+		"prefix": "html5",
+		"body": [
+			"<!-- File: ${1: Enter filename}",
+			"   Author: Claire Fuesting -->",
+			"<!DOCTYPE html>",
+			"",
+			"<html>",
+			"\t<head>",
+			"\t\t<meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"\t\t<title>${2:Enter page title}</title>",
+			"\t\t<link href=\"${3:Enter css path}\" rel=\"stylesheet\">",
+			"\t</head>",
+			"",
+			"\t<body id=\"page-${4:Enter name}\">",
+			"\t\t<div id=\"container\">",
+			"\t\t\t<header>",
+			"\t\t\t\t<div><img src=\"\" alt=\"\"><span></span></div>",
+			"\t\t\t\t<nav>",
+			"\t\t\t\t\t<ul>",
+			"\t\t\t\t\t\t<li><a href=\"\">One</a></li><li><a href=\"\">Two</a></li><li><a href=\"\">Three</a></li>",
+			"\t\t\t\t\t</ul>",
+			"\t\t\t\t</nav>",
+			"\t\t\t</header>",
+			"",
+			"\t\t\t<main id=\"content\">",
+			"\t\t\t\t$0",
+			"\t\t\t</main>",
+			"",
+			"\t\t\t<footer>Copyright &copy; ${5: Year} ${6: Enter text} </footer>",
+			"\t\t\t<script src=\"${7:Enter js path}\"></script>",
+			"\t\t</div>",
+			"\t</body>",
+			"</html>"
+		],
+		"description": "html template."
+	},
+
+	"table template": {
+		"prefix": "table",
+		"body": [
+			"<table>",
+			"\t<caption>${cap:Enter caption}</caption>",
+			"\t<thead>",
+			"\t\t<tr>",
+			"\t\t\t<th>${h1:header}</th>",
+			"\t\t\t<th>${h2:header}</th>",
+			"\t\t</tr>",
+			"\t</thead>",
+			"",
+			"\t<tfoot>",
+			"\t\t<tr>",
+			"\t\t\t<td>${f1:footer}</td>",
+			"\t\t\t<td>${f2:footer}</td>",
+			"\t\t</tr>",
+			"\t</tfoot>",
+			"",
+			"\t<tbody>",
+			"\t\t<tr>",
+			"\t\t\t<td>${d1:data}</td>",
+			"\t\t\t<td>${d2:data}</td>",
+			"\t\t</tr>",
+			"\t</tbody>",
+			"</table>"
+		]
+	}
+}

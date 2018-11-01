@@ -1,0 +1,108 @@
+<!-- File:  Deals.html
+   Author: Claire Fuesting -->
+   <!DOCTYPE html>
+   <html>
+       <head>
+          <link href="BenStyleSheet.css" rel="stylesheet">
+           <title>Favorites2</title>
+           <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+            
+            .active {
+                background-color: #bbbbbb;
+            }
+
+             table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;  
+  color:white;  
+}
+
+p{color: white;}
+
+.block {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border: none;
+  background-color: #bbbbbb;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+            </style>
+       </head>
+  
+         <nav>
+            <ul>
+            <li><a href="UserLoginDummy.html">Home</a></li>
+            <li><a href="Favorites.html">Favorites</a></li>
+            <li><a href="Deals.html">Deals</a></li>
+            <li><a href="EditAccount.html">Profile</a></li>
+            <li style="float: center">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </li>
+            <li style="float:right"><a class="active" href="SearchPage.html">Logout</a></li>
+            </ul>
+          </nav>
+          <body>
+            <p style="font-size:50px;"> <u>Your Favorite Places:</u></p>
+            <p >   </p>
+            <table style="width:100%">
+                    <tr>
+                      <th>Mario's 2</th>
+                         <td><td><a class="block" href="favorites2.html" class="button">Move Up</td></td>
+                      <td rowspan="2"><a class="block" href="removefav2.html" class="button">Remove</a></td>
+                    </tr>
+                    <tr>
+                      <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Menu</a></th>
+                      <td><td><a class="block" href="favorites.html" class="button">Move Down</td></td>
+                    </tr>
+                    <p >   </p>
+                    <p >   </p>
+                    <p >   </p>
+                    <table style="width:100%">
+                        <tr>
+                          <th>Mario's 1</th>
+                             <td><td><a class="block" href="favorites.html" class="button">Move Up</td></td>
+                          <td rowspan="2"><a class="block" href="removefav1.html" class="button">Remove</a></td>
+                        </tr>
+                        <tr>
+                          <th ><a class="block" href="SpecificRestaurantnorloggedin.html" class="button">Menu</a></th>
+                          <td><td><a class="block" href="favorites2.html" class="button">Move Down</td></td>
+                        </tr>
+                        <p >   </p>
+                        <p >   </p>
+                        <p >   </p>
+        </body>
+   </html>
